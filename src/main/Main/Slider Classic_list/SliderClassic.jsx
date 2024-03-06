@@ -25,7 +25,7 @@ export const SliderClassic = () => {
     return (
         <> <div className="px-10 sticky">
         <Fade>
-            <Carousel className=" w-full mt-10 " loop autoplay autoplayDelay={1600}>
+            <Carousel className=" w-full mt-10 " loop autoplay transition={9000} autoplayDelay={1600}>
                 <div
                     className="h-[400px] flex-col gap-8 w-full brightness-[0.7] bg-carousel1 bg-cover bg-no-repeat flex items-center justify-center">
                     <Fade top >
